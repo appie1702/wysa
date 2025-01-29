@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import UserDetails from "./UserDetails";
-import TodoList from "./TodoList";
+import UserDetails from "./userdetails";
+import TodoList from "./todolist";
 import useUserStore from "@/store/user-store";
 
 function MainContent() {
