@@ -48,7 +48,7 @@ function Sidebar() {
             />
           </div>
           {isLoading ? (
-            Array(10)
+            Array(8)
               .fill(0)
               .map((_, index) => (
                 <Skeleton key={index} className="h-16 w-full p-2">
